@@ -50,6 +50,6 @@ about:
   home: https://xpdacq.github.io
   license: BSD-3-Clause
   license_file: LICENSE
-  summary: 'Analysis Tools for XPD'
+  summary: Analysis Tools for XPD
   dev_url: https://github.com/xpdAcq/xpdtools
   doc_url: https://xpdacq.github.io/xpdtools
