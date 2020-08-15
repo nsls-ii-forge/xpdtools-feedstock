@@ -1,6 +1,6 @@
 {% set name = "xpdtools" %}
-{% set version = "0.8.1" %}
-{% set sha256 = "efbdc18ffacb681f2baa9a0f535dd1e9e64ded52037e1330863b98d3e181c165" %}
+{% set version = "0.8.2" %}
+{% set sha256 = "b7b3412a4137df3ef60ba93740614039819615265e4e833c8b1a7de15b631d19" %}
 
 package:
   name: {{ name|lower }}
@@ -18,25 +18,26 @@ build:
     - image_to_iq = xpdtools.cli.process_tiff:run_main
 
 requirements:
-  host:
+  build:
     - python >=3
-    - pip 
+    - pip
   run:
     - python >=3
-    - fabio
-    - fire
-    - matplotlib-base
-    - numba
     - numpy
-    - pims
-    - pyfai
-    - pyyaml
-    - rapidz
-    - scikit-beam
-    - scikit-learn
     - scipy
-    - tomopy
+    - scikit-beam
+    - pyyaml
+    - pyfai
+    - rapidz
+    - fire
+    - pims
+    - fabio
+    - numba
+    - matplotlib-base
     - tqdm
+    - scikit-learn
+    - tomopy
+
 
 test:
   imports:
