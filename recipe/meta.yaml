@@ -23,20 +23,20 @@ requirements:
     - pip
   run:
     - python >=3
-    - numpy
-    - scipy
-    - scikit-beam
-    - pyyaml
-    - pyfai
-    - rapidz
-    - fire
-    - pims
     - fabio
+    - fire
     - numba
-    - matplotlib-base
-    - tqdm
+    - numpy
+    - pims
+    - pyfai
+    - pyyaml
+    - rapidz
+    - scikit-beam
     - scikit-learn
+    - scipy
     - tomopy
+    - tqdm
+    - xpdsim
 
 
 test:
